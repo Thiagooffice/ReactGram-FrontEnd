@@ -44,7 +44,7 @@ export default function Register() {
   return (
     <div id="register">
       <h2>ReactGram</h2>
-      <p class="subtitle">Cadastre-se para ver as fotos dos seus amigos.</p>
+      <p className="subtitle">Cadastre-se para ver as fotos dos seus amigos.</p>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
